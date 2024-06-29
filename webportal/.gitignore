@@ -1,0 +1,31 @@
+# Ignore compiled Python files
+*.pyc
+__pycache__
+
+# Ignore environment-specific settings
+.env
+
+# Ignore Django migrations
+**/migrations/
+webportal/*.sqlite3
+
+# Ignore local development settings
+local_settings.py
+
+# Ignore IDE or editor-specific files
+.vscode/
+.idea/
+
+# Ignore logs and other temporary files
+*.log
+*.swp
+*.swo
+*.tmp
+
+# Ignore media and static files (if managed outside of Django's default locations)
+/media/
+/static/
+
+# Ignore system-specific or hidden files
+.DS_Store
+Thumbs.db
